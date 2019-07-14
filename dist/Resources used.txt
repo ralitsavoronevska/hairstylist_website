@@ -1,0 +1,8 @@
+HTML5 gallery: 
+https://html5box.com/html5gallery/demo_vertical.php
+
+Settings for Responsive HTML5 gallery:
+https://html5box.com/html5gallery/install.php
+
+Converting videos to images for the gallery:
+https://www.filezigzag.com

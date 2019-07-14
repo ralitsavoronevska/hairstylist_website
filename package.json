@@ -1,0 +1,21 @@
+{
+  "name": "hairstylist_website",
+  "version": "1.0.0",
+  "description": "Responsive Hairstylist Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Ralitsa Voronevska",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Responsive",
+    "Hairstylist",
+    "Website"
+  ]
+}

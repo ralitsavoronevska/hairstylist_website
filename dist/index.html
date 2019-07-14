@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Responsive Hairstylist Website">
+  <meta name="keywords" content="HTML5, SASS, JS">
+  <meta name="author" content="Ralitsa Voronevska">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <title>Responsive Hairstylist Website</title>  
+</head>
+
+<body>
+
+<!-- Source: https://codepen.io/bradtraversy/pen/mKdGzd -->
+<main>
+    <!-- Landing Area -->
+    <div id="landing">
+      <div id="landing-left">
+        <div id="landing-left-inner">
+          <h1>Anna Ivanova</h1>
+          <nav class="navbar">
+            <ul>
+              <li><a href="#about" class="btn" id="about-me">About Anna</a></li>
+              <li><a href="#work" class="btn" id="my-work">Anna's Work</a></li>
+              <li><a href="#contact" class="btn" id="contact-me">Contact Anna</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="landing-right"></div>
+    </div>
+    
+    <!-- About Anna Area -->
+    <section id="about">
+      <h2 class="heading">About Anna</h2>
+      <p>Anna is a hairstylist, who loves to Rock &amp; Roll. She has several years of experience in contests, live performances on stages and a saloon practice. She is a true Rock Star! While getting the work done she likes to form an atmosphere of fun and excitement :)</p>
+
+      <section class="grid-img-3-in-1">
+        <div class="image"><img src="./img/anna-1.jpg" alt=""/></div>
+        <div class="image"><img src="./img/anna-2.jpg" alt=""/></div>
+        <div class="image larger"><img src="./img/anna-3.jpg" alt=""/></div>
+      </section>
+      <img class="award" src="./img/award.jpg" alt="">
+    </section>
+
+    <!-- Anna's Work -->
+    <section id="work">
+      <h2 class="heading">Anna's Work</h2>
+      <p>Anna is a hairstylist, who enjoys hairdressing children, women and men for their casual daily needs as well as for any special occasions they might be attending. That incudes all the hairstyles you can think of, in all colors, length and shapes...and even beyond :)</p>
+
+      <!-- Define the Div for Gallery -->
+      <!-- 1. Add class html5gallery to the Div -->
+      <!-- 2. Define parameters with HTML5 data tags -->
+      <!-- 3. Add data-responsive="true" to the Div with class html5gallery -->
+      <div class="html5gallery" data-responsive="true"data-skin="vertical" data-width="400" data-height="225" data-resizemode="fill">
+
+        <!-- Add videos to Gallery -->
+        <a href="videos/video-1.mp4" data-webm="img/imgs for videos/video-1.webm">
+          <img src="img/imgs for videos/video-1.jpg" alt="Curly hair">
+        </a>
+      
+        <a href="videos/video-2.mp4" data-webm="img/imgs for videos/video-2.webm">
+          <img src="img/imgs for videos/video-2.jpg" alt="On stage, 2017">
+        </a>
+      
+        <a href="videos/video-3.mp4" data-webm="img/imgs for videos/video-3.webm">
+          <img src="img/imgs for videos/video-3.jpg" alt="On stage, 2017">
+        </a>
+        
+        <!-- Add images to Gallery -->
+        <a href="img/imgs for player/art_1_large.jpg">
+          <img src="img/imgs for player/art_1_small.jpg" alt="Magic Fairy">
+        </a>
+
+        <!-- <a href="img/special-ocassions/img-1.jpg">
+          <img src="img/special-ocassions/img-1.jpg" alt="">
+        </a>
+
+        <a href="img/special-ocassions/img-2.jpg">
+          <img src="img/special-ocassions/img-2.jpg" alt="">
+        </a>
+
+        <a href="img/special-ocassions/img-3.jpg">
+          <img src="img/special-ocassions/img-3.jpg" alt="">
+        </a>
+
+        <a href="img/special-ocassions/img-4.jpg">
+          <img src="img/special-ocassions/img-4.jpg" alt="">
+        </a>
+
+        <a href="img/special-ocassions/img-5.jpg">
+          <img src="img/special-ocassions/img-5.jpg" alt="">
+        </a>
+
+        <a href="img/special-ocassions/img-6.jpg">
+          <img src="img/special-ocassions/img-6.jpg" alt="">
+        </a>
+
+        <a href="img/special-ocassions/img-7.jpg">
+          <img src="img/special-ocassions/img-7.jpg" alt="">
+        </a> -->
+
+        <!-- Add more images to Gallery -->
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="heading">Contact Anna</h2>
+      <div class="grid-work-3-in-1">
+        <div class="contacts">
+          <a href="https://www.facebook.com/kurkunjieva" target="_blank">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+          <p><i class="fa fa-phone" aria-hidden="true"></i>
+            <strong>0888 160 195</strong>
+          </p>
+        </div>
+        <p class="work-time"><strong>Working time:</strong><br>10:00 AM - 20:00 PM</p>
+        <p class="non-work-time"><strong>Non-working days:</strong><br>Monday & Sunday</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>2019 &copy; Ralitsa Voronevska</p>
+  </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js'></script>
+  <script src="html5gallery/html5gallery.js"></script>
+  <script  src="js/index.js"></script>
+
+</body>
+</html>
